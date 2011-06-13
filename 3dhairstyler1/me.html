@@ -1,0 +1,76 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]--><!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]--><!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]--><!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>3D Face</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	
+	</head>
+<body> 
+     
+       
+ 
+
+				
+				
+               
+				
+				<div style="width:420px; margin:auto; position:relative; top:100px; left:-100px;">        <canvas id="cv" width="320" height="400" ></canvas>
+				
+			
+				</div>    
+				
+				<script type="text/javascript" src="js/jsc3d.js"></script>    <script type="text/javascript">    
+				
+				
+				var canvas = document.getElementById('cv'); 
+				
+				var viewer =  new JSC3D.Viewer(canvas); 
+				
+				
+				
+				viewer.setParameter('SceneUrl','me/me.obj'); 
+			
+				viewer.setParameter('InitRotationX', 0);  
+   				viewer.setParameter('InitRotationY', 0);  
+				viewer.setParameter('InitRotationZ', 0); 
+				viewer.setParameter('ModelColor', '#FFFF00');    
+				viewer.setParameter('BackgroundColor1', '#FFFF00');    
+				viewer.setParameter('BackgroundColor2', '#FFFF00');
+	
+				viewer.setParameter('RenderMode', 'texturesmooth');  
+				viewer.setParameter('MipMapping', 'on');  
+ 				viewer.init();     viewer.update(); 
+				
+				
+			
+				
+				
+				
+  </script>
+				
+				
+				
+				
+				<div style="width:420px; z-index:10; margin:auto; position:relative; top:110px; left:-500px;">        <canvas style="" id="cv2" width="320" height="400" ></canvas> </div>    
+				
+				<script type="text/javascript" src="js/jsc3d.js"></script>    <script type="text/javascript">    var canvas = document.getElementById('cv2');    var viewer = new JSC3D.Viewer(canvas);   
+viewer.setParameter('SceneUrl', 'me/me.obj'); viewer.setParameter('InitRotationX', 0);    viewer.setParameter('InitRotationY', 0);    viewer.setParameter('InitRotationZ', 0);    viewer.setParameter('ModelColor', '#CAA618');    viewer.setParameter('BackgroundColor1', '#FFFFFF');    viewer.setParameter('BackgroundColor2', '');    viewer.setParameter('RenderMode', 'texturesmooth');    viewer.setParameter('MipMapping', 'on');   viewer.init();    viewer.update();
+  </script>
+				
+				
+				
+				
+				
+              
+ 
+ 
+ 
+   
+</body> 
+</html> 

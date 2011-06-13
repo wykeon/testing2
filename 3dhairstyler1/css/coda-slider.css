@@ -1,0 +1,96 @@
+body { 
+    margin: 10px;
+    padding: 0; 
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    
+}
+
+
+
+#intro {
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 14px;
+    padding: 0;
+}
+
+#slider {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+	bottom:-100px;
+}
+
+.scroll {
+    height: 500px;
+    width: 1200px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+	top:-150px;
+    clear: left;
+	
+}
+
+.scrollContainer div.panel {
+    margin-bottom: 20px;
+    height: 500px;
+    width: 1200px;
+}
+
+
+
+ul.navigation {
+    list-style: none;
+	float:left;
+    position:relative;
+	left:220px;
+	bottom:-450px;
+	
+}
+
+ul.navigation li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.navigation a {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+ul.navigation a:hover {
+    background-color: #f6f6f6;
+}
+
+ul.navigation a.selected {
+    background-color: #fff;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 150px;
+    cursor: pointer;
+	visibility:hidden;
+}
+
+.scrollButtons.left {
+    left: -20px;
+}
+
+.scrollButtons.right {
+    right: -20px;
+}
+
+.hide {
+    display: none;
+}
