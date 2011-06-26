@@ -1,0 +1,13 @@
+Design Comments
+
+1) color palette needs change (too orange)
+    - design needs to be more formal
+
+2) needs to make design more web-centric
+    - looks too much like an app
+        - programming difficulties
+    - right-click not encouraged
+
+3) make landscape-oriented design
+
+4)

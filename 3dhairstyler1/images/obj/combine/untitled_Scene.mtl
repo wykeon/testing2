@@ -1,0 +1,101 @@
+# Blender3D MTL File: 
+# Material Count: 9
+newmtl Texture1.003_flat_reye.jpg
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd flat_reye.jpg
+
+
+newmtl Texture3.003_skin_output2.jpg
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin_output2.jpg
+
+
+newmtl Texture2.003_skin_output2.jpg
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin_output2.jpg
+
+
+newmtl Texture5.003_HeadMDL_sock.jpg
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd HeadMDL_sock.jpg
+
+
+newmtl Texture0.003_flat_leye.jpg
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd flat_leye.jpg
+
+
+newmtl Texture6.003_HeadMDL_teethLower.jp
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd HeadMDL_teethLower.jpg
+
+
+newmtl Texture8.003_HeadMDL_tongue.jpg
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd HeadMDL_tongue.jpg
+
+
+newmtl Texture4.003_skin_output2.jpg
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin_output2.jpg
+
+
+newmtl Texture7.003_HeadMDL_teethUpper.jp
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd HeadMDL_teethUpper.jpg
+
+
